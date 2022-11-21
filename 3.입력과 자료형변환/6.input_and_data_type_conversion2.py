@@ -3,5 +3,10 @@
 # ex) 태어난 연도를 입력하세요 >>>
 # 현재 나이는 22세 입니다.
 
-year = input("태어난 연도를 입력하세요 >>>")
-print("현재 나이는 ", 2022- int(year),"세 입니다.")
+year = int(2023)
+birth = input("태어난 연도를 입력하세요 >>>")
+print("현재 나이는 ", year- int(birth),"세 입니다.")
+
+year = int(input("태어난 연도를 입력하세요 >>>"))
+age = 2022 - year + 1
+print("현재 나이는 ", age,"세 입니다.")
