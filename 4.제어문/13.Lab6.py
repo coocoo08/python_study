@@ -14,11 +14,11 @@
 '''
 
 money = int(input("금액을 입력해주세요 >>> "))
-if(money >= 20000):
+if money >= 20000:
     print("치킨")
-elif(money >= 10000):
+elif money >= 10000:
     print("떡볶이")
-elif(money >= 3000):
+elif money >= 3000:
     print("편의점 김밥")
 else:
     print("굶어요")
